@@ -1,3 +1,6 @@
 data/*
 !data/.gitignore
 .venv
+lightning_logs
+model_weights/*
+!model_weights/.gitignore
