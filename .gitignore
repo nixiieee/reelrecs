@@ -6,3 +6,4 @@ lightning_logs
 wandb
 model_weights/*
 !model_weights/.gitignore
+*.db
