@@ -7,3 +7,5 @@ wandb
 model_weights/*
 !model_weights/.gitignore
 *.db
+*.json
+!study_results.json
