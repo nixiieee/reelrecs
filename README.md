@@ -7,17 +7,19 @@
 ## 🚀 Project Structure
 
 ```
-.
+reelrecs/
 ├── .gitignore               # General ignore rules
 ├── data/.gitignore          # Placeholder for data files
 ├── model_weights/.gitignore # Placeholder for model weights
+├── baseline.ipynb           # Baseline realisation and metrics of it
 ├── EDA.ipynb                # Exploratory data analysis
 ├── preprocessing.ipynb      # Data preprocessing steps
 ├── train_dssm.ipynb         # DSSM model training pipeline
 ├── early_stopping.py        # Custom early stopping callback
+├── metrics.py               # Metrics script 
 ├── study_results.json       # Results of hyperparameter optimization
 ├── requirements.txt         # Python dependencies
-├── README.md                # Project documentation
+└── README.md                # Project documentation
 ```
 
 ---
@@ -35,7 +37,7 @@ The training pipeline involves:
 
 Hyperparameter tuning and experiment tracking were conducted using [Weights & Biases (wandb)](https://wandb.ai/).
 
-> ⚠️ The dataset and model weights are **not included** in this repository and will not be published.
+> ⚠️ The dataset and model weights are **not included** in this repository.
 
 ---
 
