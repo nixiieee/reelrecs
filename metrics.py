@@ -57,9 +57,9 @@ def _average_precision_single_full(relevant_ids, predicted_ids, k = None):
     return ap.item()
 
 def mean_average_precision(y_true: list[Tensor],
-                                y_pred: list[Tensor],
-                                k: int | None = None,
-                                n_jobs: int = -1) -> float:
+                           y_pred: list[Tensor],
+                           k: int | None = None,
+                           n_jobs: int = -1) -> float:
     """
     Compute MAP over full prediction list.
     """
