@@ -81,7 +81,7 @@ data/
 
 ---
 
-## 📊 Notebooks
+## 📘 Notebooks
 
 * **EDA.ipynb** — initial data analysis and visualizations
 * **preprocessing.ipynb** — cleaning and transforming the dataset
