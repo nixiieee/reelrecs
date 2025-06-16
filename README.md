@@ -86,6 +86,7 @@ data/
 * **EDA.ipynb** — initial data analysis and visualizations
 * **preprocessing.ipynb** — cleaning and transforming the dataset
 * **train\_dssm.ipynb** — model training and evaluation
+* **baseline.ipynb** — baseline pipeline
 
 ---
 
